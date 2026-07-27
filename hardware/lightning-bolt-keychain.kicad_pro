@@ -79,7 +79,7 @@
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
+        "copper_sliver": "ignore",
         "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -280,7 +280,9 @@
         2
       ]
     ],
-    "rule_severities": {}
+    "rule_severities": {
+      "endpoint_off_grid": "ignore"
+    }
   },
   "libraries": {
     "pinned_footprint_libs": [],

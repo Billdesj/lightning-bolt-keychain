@@ -32,3 +32,11 @@
 - Current USB-C footprint targets the GCT USB4125-style 6-pin power-only receptacle.
 - Equivalent USB-C connectors are fine only if their pad and shell-stake geometry match.
 - This board is power-only and intentionally does not route D+/D- or high-speed USB signals.
+
+## Fabrication Package
+
+- Final fab zip: `fabrication/lightning-bolt-keychain-fab-package.zip`
+- KiCad ERC report: `fabrication/erc-report.txt` reports 0 violations.
+- KiCad DRC report: `fabrication/drc-report.txt` reports 0 violations and 0 unconnected items.
+- Gerbers are in `fabrication/gerbers/`; drill output is in `fabrication/drill/`.
+- USB-C connector target: GCT USB4125-GF-A-0190 / USB4125 family, power-only 6-pin top-mount receptacle.

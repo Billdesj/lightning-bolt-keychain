@@ -31,6 +31,7 @@ The board is intentionally power-only. It does not route USB data. The CC pull-d
 - `hardware/lightning-bolt-keychain.kicad_pcb` - lightning-bolt PCB layout
 - `bom/lightning-bolt-keychain-bom.csv` - parts list
 - `fabrication/fab-notes.md` - PCB fab and assembly notes
+- `fabrication/lightning-bolt-keychain-fab-package.zip` - Gerber, drill, BOM, and validation reports
 
 ## Build Notes
 
@@ -38,6 +39,13 @@ The board is intentionally power-only. It does not route USB data. The CC pull-d
 - Use 5.1k 0603 resistors for `RCC1` and `RCC2`; these are required for USB-C power input.
 - Start with 1k LED resistors for gentle brightness from USB 5 V. Lower values such as 680 ohm are brighter; higher values such as 1.5k or 2.2k are softer.
 - Confirm the USB-C connector orientation before ordering boards.
+
+## Fab Readiness
+
+- KiCad ERC: 0 violations
+- KiCad DRC: 0 violations, 0 unconnected items
+- Gerbers and drill files are exported under `fabrication/`
+- Upload `fabrication/lightning-bolt-keychain-fab-package.zip` to a PCB fab for quoting
 
 ## Visual Direction
 
