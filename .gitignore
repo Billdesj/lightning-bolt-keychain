@@ -1,0 +1,16 @@
+# KiCad generated files
+*-backups/
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+
+# Fabrication exports
+gerbers/
+*.zip
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,7 @@
+Designator,Quantity,Value,Description,Suggested Footprint,Notes
+BT1,1,CR2032,CR2032 coin-cell holder,Battery:BatteryHolder_Keystone_3000_1x12mm,Verify footprint against chosen holder
+SW1,1,SPST,Low-profile on/off switch,Button_Switch_SMD:SW_SPST_EVQP2,Any small SPST slide/snap switch can work with footprint update
+D1 D2 D3,3,Amber LED,0603 amber LED,LED_SMD:LED_0603_1608Metric,Low forward-voltage amber recommended for CR2032
+R1 R2 R3,3,220 ohm,0603 resistor 1%,Resistor_SMD:R_0603_1608Metric,Tune value for brightness and battery life
+H1,1,Keyring hole,Gold-plated reinforced keyring hole,MountingHole:MountingHole_4.3mm_M4_Pad_Via,Use annular copper and stitching vias
+PCB,1,Lightning bolt PCB,1.6 mm FR4 PCB with ENIG finish,Custom,Matte black solder mask recommended
