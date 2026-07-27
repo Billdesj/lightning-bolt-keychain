@@ -2,11 +2,11 @@
   (uuid "b44f0797-b48d-4c2b-ae25-cc94df0461a0")
   (paper "A4")
   (title_block
-    (title "USB-C Retro Console PCB Keychain")
+    (title "USB-C Pocket Console PCB Keychain")
     (date "2026-07-27")
     (rev "B")
     (company "Open hardware concept")
-    (comment 1 "USB-C powered retro handheld PCB keychain")
+    (comment 1 "USB-C powered pocket-console LED keychain")
   )
   (lib_symbols
   	(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
@@ -1287,7 +1287,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (text "USB-C 5 V input: CC1/CC2 use 5.1k Rd pull-downs; F1 feeds five amber LED branches for retro console glow." (at 25.40 25.40 0)
+  (text "USB-C 5 V input: CC1/CC2 use 5.1k Rd pull-downs; F1 feeds five amber LED branches for pocket-console glow." (at 25.40 25.40 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid "f1d36e04-cff9-4f85-b3cc-4ed627b90605")
   )

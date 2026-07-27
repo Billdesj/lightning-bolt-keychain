@@ -1,8 +1,8 @@
 Designator,Quantity,Value,Description,Suggested Footprint,Notes
-J1,1,USB-C,Power-only USB-C receptacle,Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal,"Use GCT USB4125-GF-A-0190 family or verify equivalent footprint before ordering. This is a cable-powered receptacle, not a male plug."
+J1,1,USB-C,Power-only USB-C receptacle,Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal,"Use GCT USB4125-GF-A-0190 family or verify equivalent footprint before ordering. Cable-powered receptacle, not male plug."
 F1,1,500mA,Resettable polyfuse,Fuse:Fuse_1206_3216Metric,"USB VBUS input protection; choose hold current to suit desired brightness."
 RCC1 RCC2,2,5.1k,USB-C CC pull-down resistor,Resistor_SMD:R_0603_1608Metric,"Required Rd resistors so USB-C sources enable default 5 V."
 R1 R2 R3 R4 R5,5,1k,LED current-limit resistor,Resistor_SMD:R_0603_1608Metric,"Tune for brightness; 680 ohm brighter, 1.5k/2.2k softer."
 D1 D2 D3 D4 D5,5,Amber LED,0603 amber LED,LED_SMD:LED_0603_1608Metric,"Amber/warm yellow console glow."
 H1,1,Keyring hole,4.5 mm non-plated keyring hole,MountingHole:MountingHole_4.3mm_M4_Pad_Via,"Keep enough FR4 around hole for keyring strength."
-PCB,1,USB-C retro console PCB,1.6 mm FR4 PCB with ENIG finish,Custom,"Teal/blue-green solder mask recommended for the retro handheld look."
+PCB,1,USB-C pocket console PCB,1.6 mm FR4 PCB with ENIG finish,Custom,"Teal/blue-green solder mask recommended for pocket-console look."

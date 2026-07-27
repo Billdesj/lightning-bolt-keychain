@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "10.0.5"
     },
-    "CreationDate": "2026-07-27T15:22:21-04:00"
+    "CreationDate": "2026-07-27T15:32:37-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "retro-console-keychain",
-      "GUID": "72657472-6f2d-4636-9f6e-736f6c652d6b",
+      "Name": "pocket-console-keychain",
+      "GUID": "706f636b-6574-42d6-936f-6e736f6c652d",
       "Revision": "B"
     },
     "Size": {
-      "X": 52.12,
-      "Y": 76.12
+      "X": 46.12,
+      "Y": 78.12
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -32,87 +32,87 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "retro-console-keychain-F_Cu.gtl",
+      "Path": "pocket-console-keychain-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-B_Cu.gbl",
+      "Path": "pocket-console-keychain-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-F_Adhesive.gta",
+      "Path": "pocket-console-keychain-F_Adhesive.gta",
       "FileFunction": "Glue,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-B_Adhesive.gba",
+      "Path": "pocket-console-keychain-B_Adhesive.gba",
       "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-F_Paste.gtp",
+      "Path": "pocket-console-keychain-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-B_Paste.gbp",
+      "Path": "pocket-console-keychain-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-F_Silkscreen.gto",
+      "Path": "pocket-console-keychain-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-B_Silkscreen.gbo",
+      "Path": "pocket-console-keychain-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-F_Mask.gts",
+      "Path": "pocket-console-keychain-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "retro-console-keychain-B_Mask.gbs",
+      "Path": "pocket-console-keychain-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "retro-console-keychain-User_Drawings.gbr",
+      "Path": "pocket-console-keychain-User_Drawings.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-User_Comments.gbr",
+      "Path": "pocket-console-keychain-User_Comments.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-User_Eco1.gbr",
+      "Path": "pocket-console-keychain-User_Eco1.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-User_Eco2.gbr",
+      "Path": "pocket-console-keychain-User_Eco2.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-Edge_Cuts.gm1",
+      "Path": "pocket-console-keychain-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-F_Fab.gbr",
+      "Path": "pocket-console-keychain-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "retro-console-keychain-B_Fab.gbr",
+      "Path": "pocket-console-keychain-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }

@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.5*%
-%TF.CreationDate,2026-07-27T15:22:21-04:00*%
-%TF.ProjectId,retro-console-keychain,72657472-6f2d-4636-9f6e-736f6c652d6b,B*%
+%TF.CreationDate,2026-07-27T15:32:37-04:00*%
+%TF.ProjectId,pocket-console-keychain,706f636b-6574-42d6-936f-6e736f6c652d,B*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Paste,Bot*%
+%TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.5) date 2026-07-27 15:22:21*
+G04 Created by KiCad (PCBNEW 10.0.5) date 2026-07-27 15:32:37*
 %MOMM*%
 %LPD*%
 G01*
