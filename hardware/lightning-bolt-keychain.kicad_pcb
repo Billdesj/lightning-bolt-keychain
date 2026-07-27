@@ -201,24 +201,6 @@
   (gr_line (start 70 72) (end 58 44) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "a350288a-4710-48ce-ae9d-2c502a7f9f3f"))
   (gr_line (start 58 44) (end 78 44) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "a0f4615f-8509-41b1-83f2-febff6bb93a3"))
   (gr_line (start 78 44) (end 80 20) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "d41e7149-c047-4d23-bf5a-e68022f88d2c"))
-  (gr_poly
-    (pts
-      (xy 66 40) (xy 68 40) (xy 74 68) (xy 72 68)
-    )
-    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp "f91d01e6-eced-448e-a7c6-5f10a88cb5d8"))
-  (gr_poly
-    (pts
-      (xy 72 68) (xy 74 68) (xy 66 98) (xy 64 98)
-    )
-    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp "4d793bcb-b029-4f7f-831d-d4ff26f79055"))
-  (gr_line (start 83 26) (end 77 42) (stroke (width 0.6) (type solid)) (layer "F.SilkS") (tstamp "6752d3b2-a6a7-4ae8-a334-a1df4b97014e"))
-  (gr_line (start 97 42) (end 102 56) (stroke (width 0.45) (type solid)) (layer "F.SilkS") (tstamp "15a52dc6-78ff-452f-baf8-f07d9ab7accc"))
-  (gr_line (start 57 62) (end 70 62) (stroke (width 0.45) (type solid)) (layer "F.SilkS") (tstamp "157a07bd-c6e7-44da-91f9-42c11a8c9585"))
-  (gr_line (start 89 73) (end 99 86) (stroke (width 0.45) (type solid)) (layer "F.SilkS") (tstamp "32ca3e45-c1dd-4d39-b611-a76fd2b3b5060"))
-  (gr_line (start 62 111) (end 79 123) (stroke (width 0.45) (type solid)) (layer "F.SilkS") (tstamp "20829ebc-1844-48f9-95cc-ed80a8238ac1"))
-  (gr_circle (center 58 61) (end 59 61) (stroke (width 0.25) (type solid)) (fill solid) (layer "F.SilkS") (tstamp "3187c8b5-93a4-4905-874e-6b79b6e29e0d"))
-  (gr_circle (center 101 52) (end 102 52) (stroke (width 0.25) (type solid)) (fill solid) (layer "F.SilkS") (tstamp "d2656201-223b-404d-a4a8-d53423f69d35"))
-  (gr_circle (center 88 111) (end 89 111) (stroke (width 0.25) (type solid)) (fill solid) (layer "F.SilkS") (tstamp "94cb21e5-1d60-44f4-b31d-0d9a201b7a2c"))
   (segment (start 86.9 80) (end 77.75 106) (width 0.4) (layer "B.Cu") (net 2) (tstamp "fbbd6214-a32d-45d7-a652-fe998ae091ab"))
   (segment (start 71.1 80) (end 71.1 74) (width 0.4) (layer "B.Cu") (net 2) (tstamp "a1bd6214-a32d-45d7-a652-fe998ae091ab"))
   (segment (start 71.1 74) (end 86.9 74) (width 0.4) (layer "B.Cu") (net 2) (tstamp "a2bd6214-a32d-45d7-a652-fe998ae091ab"))
