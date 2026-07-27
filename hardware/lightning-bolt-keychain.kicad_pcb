@@ -246,9 +246,9 @@
     (pad "2" smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (net 10 "LED5") (pinfunction "A") (roundrect_rratio 0.25) (tstamp "0f4a7a6b-df80-4e70-b5f6-dcd4b4144c63"))
   )
 
-  (gr_line (start 78 25) (end 94 32) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "8456eaa1-0ebe-46ec-9264-830e5d2da711"))
-  (gr_line (start 94 32) (end 89 48) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "766d8f86-d59f-4d12-9ad9-739d3c943c49"))
-  (gr_line (start 89 48) (end 96 51) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "b026471e-b744-4dd9-aed9-fc52dcf12f0e"))
+  (gr_line (start 78 25) (end 90 30) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "8456eaa1-0ebe-46ec-9264-830e5d2da711"))
+  (gr_line (start 90 30) (end 88 47) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "766d8f86-d59f-4d12-9ad9-739d3c943c49"))
+  (gr_line (start 88 47) (end 96 51) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "b026471e-b744-4dd9-aed9-fc52dcf12f0e"))
   (gr_line (start 96 51) (end 88 59) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "9bcb0ea1-97ec-4eeb-a03f-c525a1d375a4"))
   (gr_line (start 88 59) (end 95 63) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "d6af3d36-6a31-4260-a8c4-c1982f65dd7c"))
   (gr_line (start 95 63) (end 87 73) (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp "ebceea26-3b56-41ce-8008-25053c7c8f3e"))
