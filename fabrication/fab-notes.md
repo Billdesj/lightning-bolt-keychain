@@ -10,24 +10,25 @@
 - Copper weight: 1 oz
 - Minimum trace/space: 6/6 mil or better
 - Minimum drill: 0.3 mm or fab standard
-- Edge cuts: rounded/chamfered lightning bolt outline
+- Edge cuts: chunky lightning bolt with a flat USB-C connector edge
 
 ## Assembly Notes
 
-- Place LEDs on the front side so the glow is visible.
-- Keep the 12 mm coin-cell retainer on the back side if possible.
-- Keep the switch accessible from the edge or back.
-- Use amber LEDs for reliable operation from a small 3 V coin cell.
-- If the LEDs are too bright or battery life is poor, increase `R1`-`R3` to 330 ohm or 470 ohm.
+- Place the USB-C receptacle at the flat bottom edge. Confirm connector overhang/orientation against the datasheet before ordering.
+- `RCC1` and `RCC2` must be 5.1k pull-downs to GND for USB-C sink/default-power behavior.
+- `F1` protects VBUS; 500 mA hold current is more than enough for this LED keychain.
+- Start with 1k LED resistors. Lower values increase brightness and current draw.
+- Use amber LEDs for a warm lightning-bolt look.
 
 ## Mechanical Notes
 
-- Do not make the bolt tips too thin. Keep at least 6 mm of board width around narrow sections.
-- Add copper around the keyring hole on both sides.
-- Consider via stitching around the keyring hole for durability.
-- Add small corner radii where your fab supports it, or approximate them with chamfered outline segments.
+- Keep the bolt outline chunky enough for pocket/keyring abuse.
+- Keep at least 0.5 mm copper clearance from Edge.Cuts.
+- The USB-C connector shell stakes provide mechanical support, but the flat connector edge should be reviewed in the 3D viewer before fab.
+- The keyring hole should remain plated and reinforced with copper on both sides.
 
 ## Part Compatibility
 
-- Current PCB footprint is Keystone 3000 style for 12 mm coin cells, not CR2032.
-- To use CR2032, change BT1 to a 20 mm holder footprint such as Keystone 3002 or 3034 and reroute the battery pads.
+- Current USB-C footprint targets the GCT USB4125-style 6-pin power-only receptacle.
+- Equivalent USB-C connectors are fine only if their pad and shell-stake geometry match.
+- This board is power-only and intentionally does not route D+/D- or high-speed USB signals.
